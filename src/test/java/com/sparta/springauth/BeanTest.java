@@ -16,6 +16,8 @@ public class BeanTest {
 
 //  @Autowired
 //  Food chicken;
+// @Autowired
+// Food pizza;
 
   @Test
   @DisplayName("Primary 와 Qualifier의 우선순위 확인")
