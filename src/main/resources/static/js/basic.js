@@ -2,8 +2,9 @@ let host = 'http://' + window.location.host;
 
 $(document).ready(function () {
     const auth = getToken();
+    console.log(auth);
     if(auth === '') {
-        window.location.href = host + "/api/user/login-page";
+       // window.location.href = host + "/api/user/login-page";
     } else {
         $('#login-true').show();
         $('#login-false').hide();
